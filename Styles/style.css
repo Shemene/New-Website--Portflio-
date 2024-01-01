@@ -1,0 +1,9 @@
+:root {
+  --largecolor: white;
+  --textbackground: pink;
+  --font: Roboto;
+}
+h1 {
+  background: var(--textbackground);
+  color: var(--largecolor);
+}
