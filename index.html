@@ -22,14 +22,15 @@
     <title>Portfolio website</title>
   </head>
   <body>
+    <!---navbar section---->
     <nav class="navbar navbar-expand-md navbar-light bg-light">
-      <a class="navbar-brand" id="logo" href="#"
+      <a class="navbar-brand d-block mx-auto text-center" id="logo" href="#"
         ><span class="logo-s">S</span>hem</a
       >
       <button
-        class="navbar-toggler"
+        class="navbar-toggler mx-auto"
         type="button"
-        data-toggle="collapse"
+        data-toggle="collapse navbar-collapse"
         data-target="#navbarNav"
       >
         <span class="navbar-toggler-icon"></span>
@@ -55,10 +56,12 @@
         </ul>
       </div>
     </nav>
+
+    <!---Home section---->
     <div class="container" id="container">
       <div class="row">
-        <div class="col-2" id="container">
-          <p class="header-text">
+        <div class="col-md-6" id="container">
+          <p class="header-text text-center">
             Hi I am Shemené Soois , a web dveloper based in South Africa.
             <a
               class="link-p"
@@ -68,8 +71,29 @@
             for freelance & collaborations worldwide.
           </p>
         </div>
-        <div class="col-2">
+        <div class="col-md-6 d-none d-md-block">
           <img class="home-img" src="img/me.png" alt="me" width="900px" />
+        </div>
+      </div>
+    </div>
+
+    <!---Project section---->
+
+    <div class="container">
+      <h1 class="h1-style d-flex justify-content-center">Projects</h1>
+      <div class="row align-items-start">
+        <div class="col-md-4 text-center d-flex justify-content-center">
+          <img
+            class="img-fluid img-projects"
+            src="img/Weather APP.png"
+            alt=""
+          />
+        </div>
+        <div class="col-md-4 text-center d-flex justify-content-center">
+          <img class="img-fluid img-projects" src="img/Portfolio.png" alt="" />
+        </div>
+        <div class="col-md-4 text-center d-flex justify-content-center">
+          <img class="img-fluid img-projects" src="img/project 3.png" alt="" />
         </div>
       </div>
     </div>

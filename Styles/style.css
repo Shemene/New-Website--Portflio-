@@ -1,18 +1,31 @@
 :root {
-  --largecolor: rgb(0, 0, 0);
-  --textbackground: rgb(180, 180, 180);
+  --maincolor: rgb(0, 0, 0);
+  --background: rgb(247, 242, 242);
   --h1-font: 60px;
-  --p-font: 30px;
+  --p-font: 60px;
   --style-color: rgb(255, 116, 139);
 }
+
 #navbarNav {
-  color: var(--largecolor);
-  padding: 20px 100px;
+  padding: 20px 250px;
+  background: var(--background);
+  font-size: 25px;
+}
+
+#navbarNav a {
+  transition: all 200ms;
+}
+
+#navbarNav a:hover {
+  transform: translateY(-10px);
+  color: pink;
 }
 
 #logo {
   font-size: 30px;
   transition: all 200ms;
+  background: var(--background);
+  color: var(--maincolor);
 }
 
 #logo:hover {
@@ -25,27 +38,33 @@
   font-weight: 800;
 }
 
-#container {
-  display: flex;
-  justify-content: space-between;
-}
-
 .link-p {
   text-decoration: none;
   font-weight: 600;
   color: var(--style-color);
-  cursor: pointer;
   transition: all 200ms;
 }
 .link-p:hover {
-  transform: translateY(-10px);
-}
-
-.home-img {
-  border-radius: 50px;
+  color: pink;
+  cursor: pointer;
 }
 
 .header-text {
   font-size: var(--p-font);
-  padding: 30px;
+}
+
+.h1-style {
+  padding: 0 0 50px 0;
+  font-size: var(--h1-font);
+}
+
+.img-projects {
+  border-radius: 15px;
+  border: 1px solid pink;
+  border-style: double;
+  border-width: 15px;
+  opacity: 80%;
+}
+.img-projects:hover {
+  opacity: 100%;
 }
