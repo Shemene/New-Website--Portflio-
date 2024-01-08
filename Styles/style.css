@@ -8,7 +8,6 @@
 
 #navbarNav {
   padding: 20px 250px;
-  background: var(--background);
   font-size: 25px;
 }
 
@@ -18,13 +17,11 @@
 
 #navbarNav a:hover {
   transform: translateY(-10px);
-  color: pink;
 }
 
 #logo {
   font-size: 30px;
   transition: all 200ms;
-  background: var(--background);
   color: var(--maincolor);
 }
 
