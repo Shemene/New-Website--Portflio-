@@ -65,3 +65,25 @@
 .img-projects:hover {
   opacity: 100%;
 }
+.contact-btn {
+  font-size: 30px;
+  border-radius: 10px;
+  color: var(--background);
+  border: none;
+  background: var(--style-color);
+  padding: 10px;
+  transition: all 200ms;
+  font-weight: 400;
+}
+.contact-btn a {
+  text-decoration: none;
+  border: none;
+  color: var(--background);
+}
+
+.contact-btn:hover {
+  color: var(--style-color);
+  background: pink;
+  transform: translateY(-10px);
+}
+
