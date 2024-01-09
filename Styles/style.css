@@ -1,14 +1,15 @@
 :root {
   --maincolor: rgb(0, 0, 0);
-  --background: rgb(247, 242, 242);
+  --background: white;
   --h1-font: 60px;
   --p-font: 60px;
   --style-color: rgb(255, 116, 139);
 }
 
 #navbarNav {
-  padding: 20px 250px;
+  padding: 20px 250px -2px;
   font-size: 25px;
+  background: var(--background);
 }
 
 #navbarNav a {
@@ -55,16 +56,6 @@
   font-size: var(--h1-font);
 }
 
-.img-projects {
-  border-radius: 15px;
-  border: 1px solid pink;
-  border-style: double;
-  border-width: 15px;
-  opacity: 80%;
-}
-.img-projects:hover {
-  opacity: 100%;
-}
 .contact-btn {
   font-size: 30px;
   border-radius: 10px;
@@ -74,6 +65,7 @@
   padding: 10px;
   transition: all 200ms;
   font-weight: 400;
+  text-decoration: none;
 }
 .contact-btn a {
   text-decoration: none;
@@ -86,4 +78,13 @@
   background: pink;
   transform: translateY(-10px);
 }
+h2 {
+  font-size: 64px;
+  text-align: center;
+}
 
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
+}
