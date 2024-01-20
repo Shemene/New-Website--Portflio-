@@ -122,6 +122,15 @@ h2 {
     text-align: center;
   }
 
+  .h3-about {
+    text-align: center;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+
   .p-section {
     display: flex;
     text-align: center;
