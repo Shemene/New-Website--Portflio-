@@ -189,7 +189,28 @@ h2 {
 .contact-container-head {
   padding: 120px;
 }
+.contact-container-head h1 {
+  font-size: var(--p-font);
+}
 
 .contact-container-head a {
-  text-decoration: none;
+  font-size: 18px;
+  text-decoration:none;
+  color: rgb(253, 86, 114);
+  padding: 50px;
+  transition: all 200ms ease-in-out;
+}
+
+.contact-container-head a:hover {
+  cursor: pointer;
+  color: pink;
+}
+
+.contact-container-head p {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.contact-container-head p a{
+  font-weight: 400;
 }
