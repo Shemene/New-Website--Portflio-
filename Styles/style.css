@@ -218,3 +218,12 @@ h2 {
 .content-about {
   text-align: center;
 }
+
+.social-links a {
+  font-size: 20px;
+  color: rgb(248, 146, 163);
+}
+
+.social-links a:hover {
+  color: rgb(185, 21, 48);
+}
