@@ -143,6 +143,22 @@ h2 {
   }
 }
 
+footer .contact-box {
+  background: #efd9e5;
+  padding: 35px 120px;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+footer h4 {
+  font-size: 48px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
 .content h3 {
   padding: 20px;
   text-align: center;
